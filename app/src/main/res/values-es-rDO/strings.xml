@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+<string name="app_name">Just Java Café</string>
+<string name="editText_your_name">Nombre</string>
+<string name="label_quantity">¿Cuántos cafés?</string>
+<string name="label_toppings">Elige ingredientes</string>
+<string name="topping_whipped_cream">Crema batida $1.00</string>
+<string name="label_extras">Extra shot de licor</string>
+<string name="button_order">¡Quiero café!</string>
+<string name="want_topping_yes">Sí</string>
+<string name="order_summary_name">Nombre: <xliff:g example="Joe" id="name">%s</xliff:g></string>
+<string name="order_summary_number_coffees">Número de cafés: <xliff:g id="numberOfCoffees" example="1">%1$d</xliff:g></string>
+<string name="order_summary_whipped_cream">Con crema batida: <xliff:g id="want_whipped_cream" example="Yes">%s</xliff:g></string>
+<string name="order_summary_chocolate">Con chocolate: <xliff:g id="want_chocolate" example="Yes">%s</xliff:g></string>
+<string name="order_summary_shots_liqueur">Extra shot(s) de licor: <xliff:g id="extra_shots" example="1">%1$d</xliff:g></string>
+<string name="email_subject">Tu pedido de Just Java Café</string>
+<string name="error_message_too_many_coffees">Se permite un máximo de 100 cafés por pedido.</string>
+<string name="error_message_too_few_coffees">Por favor, pide al menos un café.</string>
+<string name="error_message_too_many_shots">Se permite un máximo de 3 shots de licor.</string>
+<string name="error_message_too_few_shots">No aceptamos números negativos.</string>
+<string name="order_summary_thanks">¡Gracias por tu compra!</string>
+<string name="error_message_name_empty">Por favor, escribe tu nombre para proceder con tu pedido.</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Space used for padding in the activity or between elements -->
+    <dimen name="margin_between">16dp</dimen>
+
+    <!-- margin used between the horizontal layouts and their corresponding TextViews -->
+    <dimen name="margin_horizontal_layouts">6dp</dimen>
+
+    <!-- Size for the TextViews that have labels (ex: How many cups of coffee?) -->
+    <dimen name="labels">30sp</dimen>
+
+    <!-- Size used in the counters for amount of cups of coffee and extra shots -->
+    <dimen name="quantity_size">16sp</dimen>
+
+    <!-- Size used for the price in "How many cups of coffee?" -->
+    <dimen name="price_size">16sp</dimen>
+
+    <!-- Space used in the buttons + and -  -->
+    <dimen name="size_button_plus_minus">48dp</dimen>
+
+    <!-- Margin left between the buttons + and - and the 0 in "How many cups of coffee?" and "Extra shots" -->
+    <dimen name="margin_left_button_and_text">8dp</dimen>
+
+    <!-- Padding used between the checkbox and its label -->
+    <dimen name="space_checkbox_text">24dp</dimen>
+
+    <!-- Size used in the text labels that are part of the checkboxes -->
+    <dimen name="text_checkbox">16sp</dimen>
+
+    <!-- Space used between the "Gimme coffee!" button and the element above -->
+    <dimen name="margin_top_order_button">26dp</dimen>
+</resources>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Icon from https://www.freepik.com/free-vector/different-types-of-cups-with-hot-coffee_921293.htm
+and modified by me -->
+
+<adaptive-icon xmlns:android="http://schemas.android.com/apk/res/android">
+    <background android:drawable="@color/justjava_launcher_background"/>
+    <foreground android:drawable="@mipmap/justjava_launcher_foreground"/>
+</adaptive-icon>

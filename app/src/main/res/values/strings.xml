@@ -1,0 +1,70 @@
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- Title for the application. [CHAR LIMIT=25] -->
+    <string name="app_name">Just Java Coffee Shop</string>
+
+    <!-- Hint text displayed in the empty field for the user's name [CHAR LIMIT=20] -->
+    <string name="editText_your_name">Name</string>
+
+    <!-- Header text for the coffee [CHAR LIMIT = 40] -->
+    <string name="label_quantity">How many cups of coffee?</string>
+
+    <!-- Not translatable but the currency symbol could be changed if applicable -->
+    <string name="button_increment" translatable="false">+</string>
+    <string name="coffee_quantity" translatable="false">0</string>
+    <string name="button_decrement" translatable="false">-</string>
+    <string name="coffee_price" translatable="false">$5.00</string>
+
+    <!-- Text for the list of toppings [CHAR LIMIT = 20] -->
+    <string name="label_toppings">Choose your toppings</string>
+    <string name="topping_whipped_cream">Whipped cream $1.00</string>
+
+    <!-- If in Spanish: same word -->
+    <string name="topping_chocolate" translatable="false">Chocolate $2.00</string>
+
+    <!-- Text for the extras [CHAR LIMIT = 30] -->
+    <string name="label_extras">Extra shot of liqueur</string>
+
+    <!-- Not translatable but the currency symbol could be changed if applicable -->
+    <string name="extra_shots_quantity" translatable="false">0</string>
+    <string name="shots_price" translatable="false">$2.00</string>
+
+    <!-- Text for the order button [CHAR LIMIT = 20] -->
+    <string name="button_order">Gimme coffee!</string>
+
+    <!-- Text for whether the customer chose the toppings or not (instead of true or false) - for the order summary -->
+    <string name="want_topping_yes">Yes</string>
+
+    <!-- If in Spanish: same word -->
+    <string name="want_topping_no" translatable="false">No</string>
+
+    <!-- Text that creates the order summary: customer name. It will be shown in the format "Name: Joe" [CHAR LIMIT=NONE] -->
+    <string name="order_summary_name">Name: <xliff:g id="name" example="Joe">%s</xliff:g></string>
+
+    <!-- Text that creates the order summary: amount of coffees ordered. It will be shown in the format "Number of coffees: 1"  [CHAR LIMIT=NONE] -->
+    <string name="order_summary_number_coffees">Number of coffees: <xliff:g id="number_of_coffees" example="1">%1$d</xliff:g></string>
+
+    <!-- Text that creates the order summary: with whipped cream? Yes/no. It will be shown in the format "With whipped cream: Yes" [CHAR LIMIT=NONE] -->
+    <string name="order_summary_whipped_cream">With whipped cream: <xliff:g id="want_whipped_cream" example="Yes">%s</xliff:g></string>
+
+    <!-- Text that creates the order summary: with whipped cream? Yes/no. It will be shown in the format "With chocolate: Yes" [CHAR LIMIT=NONE] -->
+    <string name="order_summary_chocolate">With chocolate: <xliff:g id="want_chocolate" example="Yes">%s</xliff:g></string>
+
+    <!-- Text that creates the order summary: with extra shots of liqueur. It will be shown in the format "Extra shot(s) of liqueue: 1"  [CHAR LIMIT=NONE] -->
+    <string name="order_summary_shots_liqueur">Extra shot(s) of liqueur: <xliff:g id="extra_shots" example="1">%1$d</xliff:g></string>
+
+    <!-- Text that creates the order summary: total price of the order // same word in Spanish. It will be shown in the format "Total: $10.00"  [CHAR LIMIT=NONE] -->
+    <string name="order_summary_total" translatable="false">Total:&#160;</string>
+
+    <!-- Text that creates the order summary: thank you message [CHAR LIMIT=NONE] -->
+    <string name="order_summary_thanks">Thank you!</string>
+
+    <!-- Text for the subject line in the e-mail sent to the customer [CHAR LIMIT=NONE] -->
+    <string name="email_subject">Your Just Java Coffee Order</string>
+
+    <!-- Header text for the error messages [CHAR LIMIT=NONE] -->
+    <string name="error_message_too_many_coffees">You can only order 100 cups of coffee at a time.</string>
+    <string name="error_message_too_few_coffees">Please order at least 1 cup of coffee.</string>
+    <string name="error_message_too_many_shots">Max 3 shots of liqueur allowed.</string>
+    <string name="error_message_too_few_shots">Number less than 0.</string>
+    <string name="error_message_name_empty">Please enter your name to proceed with the order.</string>
+</resources>

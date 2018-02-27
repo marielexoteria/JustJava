@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background_color">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="@dimen/margin_between"
+        android:paddingLeft="@dimen/margin_between"
+        android:paddingRight="@dimen/margin_between"
+        android:paddingTop="@dimen/margin_between">
+
+        <EditText
+            android:id="@+id/your_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="text"
+            android:hint="@string/editText_your_name"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_quantity"
+            android:fontFamily="@font/cookie_regular"
+            android:textSize="@dimen/labels"
+            android:textColor="@color/label_text"
+            android:layout_marginTop="@dimen/margin_between"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="@dimen/size_button_plus_minus"
+                android:layout_height="@dimen/size_button_plus_minus"
+                android:text="@string/button_decrement"
+                android:textColor="@color/button_text"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:onClick="decrementNumberOfCoffees"/>
+
+            <TextView
+                android:id="@+id/quantity_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coffee_quantity"
+                android:textSize="@dimen/quantity_size"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:layout_marginLeft="@dimen/margin_left_button_and_text"
+                android:textColor="@color/text_color"/>
+
+            <Button
+                android:layout_width="@dimen/size_button_plus_minus"
+                android:layout_height="@dimen/size_button_plus_minus"
+                android:text="@string/button_increment"
+                android:textColor="@color/button_text"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:layout_marginLeft="@dimen/margin_left_button_and_text"
+                android:onClick="incrementNumberOfCoffees"/>
+
+            <TextView
+                android:id="@+id/coffee_price"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/coffee_price"
+                android:textSize="@dimen/price_size"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:layout_marginLeft="@dimen/margin_left_button_and_text"
+                android:textColor="@color/text_color"/>
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_toppings"
+            android:fontFamily="@font/cookie_regular"
+            android:textSize="@dimen/labels"
+            android:textColor="@color/label_text"
+            android:layout_marginTop="@dimen/margin_between"/>
+
+        <CheckBox
+            android:id="@+id/topping_whipped_cream"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/topping_whipped_cream"
+            android:textSize="@dimen/text_checkbox"
+            android:paddingLeft="@dimen/space_checkbox_text"
+            android:layout_marginTop="@dimen/margin_horizontal_layouts"/>
+
+        <CheckBox
+            android:id="@+id/topping_chocolate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/topping_chocolate"
+            android:textSize="@dimen/text_checkbox"
+            android:paddingLeft="@dimen/space_checkbox_text"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_extras"
+            android:fontFamily="@font/cookie_regular"
+            android:textSize="@dimen/labels"
+            android:textColor="@color/label_text"
+            android:layout_marginTop="@dimen/margin_between"/>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:layout_width="@dimen/size_button_plus_minus"
+                android:layout_height="@dimen/size_button_plus_minus"
+                android:text="@string/button_decrement"
+                android:textColor="@color/button_text"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:onClick="decrementShots"/>
+
+            <TextView
+                android:id="@+id/shots_text_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/extra_shots_quantity"
+                android:textColor="@color/text_color"
+                android:textSize="@dimen/quantity_size"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:layout_marginLeft="@dimen/margin_left_button_and_text"/>
+
+            <Button
+                android:layout_width="@dimen/size_button_plus_minus"
+                android:layout_height="@dimen/size_button_plus_minus"
+                android:text="@string/button_increment"
+                android:textColor="@color/button_text"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:layout_marginLeft="@dimen/margin_left_button_and_text"
+                android:onClick="incrementShots"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shots_price"
+                android:textSize="@dimen/price_size"
+                android:layout_marginLeft="@dimen/margin_left_button_and_text"
+                android:layout_marginTop="@dimen/margin_horizontal_layouts"
+                android:textColor="@color/text_color"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/button_order"
+            android:fontFamily="@font/cookie_regular"
+            android:textSize="@dimen/labels"
+            android:textAllCaps="false"
+            android:textColor="@color/button_text"
+            android:layout_marginTop="@dimen/margin_top_order_button"
+            android:onClick="submitOrder"/>
+    </LinearLayout>
+
+</ScrollView>
